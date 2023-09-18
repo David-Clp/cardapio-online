@@ -1,0 +1,9 @@
+@import '../../../styles/variables';
+
+.main{
+    padding: 3rem 15% 3rem 15%;
+    @include flexJustify(row);
+    gap: 2rem;
+    background-color: $cor-secundaria;
+    
+}

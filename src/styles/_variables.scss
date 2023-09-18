@@ -1,0 +1,31 @@
+// _variables.scss
+
+$cor-primaria: #007bff;
+$cor-secundaria: #ff6347;
+
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin flexJustify($direction) {
+    display: flex;
+    justify-content: center;
+    flex-direction: $direction;
+}
+
+@mixin flexBetween($direction) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin flexAlign($direction) {
+    display: flex;
+    align-items: center;
+    flex-direction: $direction;
+}
+  
